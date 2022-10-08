@@ -1,7 +1,3 @@
-Huffman Ağacı oluşturup karakterlerin bit karşılık tablosu ve kelimelerin bit
-karşılıklarını oluşturur. Daha sonra deneme.txt dosyasında bulunan kelimelerin hepsinin Huffman
-ağacından faydalanarak bit karşılığını yeni bir dosyaya (“Bit.dat”) yazar. Decode-Encode işlemlerini
-yapar. %50 sıkıştırma başarısı gösterir.
+It creates a Huffman Tree and creates a bitwise table of characters and bits of words. Then, it uses the Huffman tree of all the words in the test.txt file and writes the bit equivalents to a new file (â€œBit.datâ€). Performs Decode-Encode operations. It shows 50% compression success.
 
----MinGW Derleyicisi icin Makefile oluşturulmuştur. (Çalıştırmak için klasörde konsol ekranına 
-mingw32-make komutu verilmelidir.)
+---Makefile has been created for MinGW Compiler. (To run, the mingw32-make command must be given to the console screen in the folder.)
